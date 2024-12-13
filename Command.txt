@@ -1,0 +1,14 @@
+git init
+
+git add MyFile.txt
+
+git commit -m "Initial commit with MyFile.txt"
+
+mkdir Info
+
+touch Info/InfoFile1 Info/InfoFile2
+
+git add Info/InfoFile1 Info/InfoFile2
+git commit -m "Added Info directory with InfoFile1 and InfoFile2"
+
+$ git config user.name "KCHUGHKILLEN_INFO"
